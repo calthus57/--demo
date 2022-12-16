@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .red {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+
+        .green {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+
+        .blue {
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            /* 2 清除浮动 both 两边不允许有浮动元素 left right*/
+            /*clear: both;*/
+        }
+
+        /* 1 固定高度 */
+        /*.box{*/
+        /*    height: 200px;*/
+        /*}*/
+
+         /*4  bfc 让浮动元素计算高度 */
+        .box{
+            overflow: hidden;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="red"></div>
+        <div class="green"></div>
+        <!-- 3 浮动元素后面补一个-->
+        <!-- <div style="clear: left"></div>-->
+    </div>
+    <div class="blue"></div>
+</body>
+</html>
