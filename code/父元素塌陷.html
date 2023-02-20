@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      .parent {
+          background-color: blueviolet;
+          /*border: 1px solid transparent;*/
+          /*height: 500px;*/
+          width: 500px;
+          overflow: hidden;
+      }
+
+      .child1 {
+          background-color: aqua;
+          float: left;
+          width: 200px;
+          height: 200px;
+          margin-top: 20px;
+      }
+
+      .child2 {
+          float: left;
+          background-color: aqua;
+          width: 200px;
+          height: 200px;
+          margin-top: 10px;
+      }
+  </style>
+</head>
+<body>
+  <!--  父元素的第一个子元素的上边距margin-top如果碰不到有效的border或者padding.
+  就会不断一层一层的找自己 “领导”(父元素，祖先元素)的麻烦。
+  -->
+  <!--  1 margin变padding
+  2 父盒子设置边框
+  3 加浮动
+  4 overflow:hidden-->
+  <div class="parent">
+    <div class="child1"></div>
+    <div class="child2"></div>
+  </div>
+  <div>dsad</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+     .box{
+         margin: 0 auto;
+         width: 300px;
+     }
+     ul{
+         list-style: none;
+     }
+     .box .item{
+         float: left;
+         width: 150px;
+         text-align: center;
+         background-color: violet;
+         line-height: 40px;
+     }
+      .box .item:hover{
+          background-color: fuchsia;
+      }
+
+      /* > 亲儿子选择器*/
+      .item>ul{
+          display: none;
+          background-color: #219cea;
+      }
+      .item:hover ul{
+          display: block;
+      }
+      .item li:hover{
+          color: crimson;
+      }
+  </style>
+</head>
+
+<body>
+  <div >
+    <ul class="box">
+      <li class="item">
+        我的
+        <ul>
+          <li>登录</li>
+          <li>信息</li>
+          <li>退出</li>
+        </ul>
+      </li>
+      <li class="item">
+        教程
+        <ul>
+          <li>c</li>
+          <li>java</li>
+          <li>js</li>
+          <li>python</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+
+</body>
+
+</html>

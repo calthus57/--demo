@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.con {
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 116px;
+    /*background-color: #219cea;*/
+}
+
+.logo {
+    width: 265px;
+    height: 110px;
+    background: url("../img/logo.png");
+    float: left
+}
+
+.headerright {
+    float: right;
+}
+
+.headerright ul {
+    height: 44px;
+    margin-top: 10px;
+    line-height: 44px;
+}
+
+.headerright li {
+    float: left;
+}
+
+.headerright li a {
+    border-right: 1px solid #b2c7ea;
+    padding: 0 13px;
+    font-size: 13px;
+    color: #ababab;
+}
+
+.headerright .last {
+    padding-right: 0;
+    border: 0;
+}
+
+.headerright li .active {
+    color: #eb6ca1;
+}
+
+.search {
+    float: right;
+    width: 234px;
+    height: 28px;
+    border: 1px solid #d1d1d1;
+}
+
+.search input {
+    border: 0;
+    /*input选中时的框*/
+    outline: 0;
+}
+
+.search .left {
+    float: left;
+    width: 196px;
+    height: 28px;
+    padding-left: 14px;
+}
+
+.search .right {
+    float: right;
+    height: 28px;
+    background: url(../img/search.png) no-repeat left center;
+    width: 24px;
+}
+
+.nav {
+    height: 53px;
+    line-height: 53px;
+    background-color: #0c345c;
+    color: white;
+}
+
+.nav li {
+    float: left;
+    font-size: 16px;
+    margin-right: 76px;
+}
+
+.banner {
+    height: 379px;
+    background: url(../img/bg.png) no-repeat center;
+}
+
+.list {
+    margin-top: 51px;
+    margin-bottom: 35px;
+    height: 213px;
+    /*background-color: yellow;*/
+}
+
+.item {
+    float: left;
+    height: 211px;
+    width: 305px;
+    border: 1px solid #cccccc;
+    margin-right: 20px;
+}
+
+.item p {
+    height: 47px;
+    line-height: 47px;
+    padding-left: 28px;
+    color: black;
+}
+
+.item img {
+    display: block;
+}
+
+.itemlast {
+    margin-right: 0;
+}
+
+.footer {
+    height: 206px;
+    border-top: 1px solid #cccccc;
+    background: url("../img/footer.png");
+}
+
+.footer ul {
+    height: 84px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ecebeb;
+    line-height: 28px;
+}
+
+.footer li {
+    float: left;
+    width: 210px;
+    padding-left: 30px;
+    font-size: 12px;
+    color: #336699;
+}
+
+.footer p {
+    height: 61px;
+    line-height: 61px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.footer span{
+    color: #0096da;
+}
+
+
+
+
+
